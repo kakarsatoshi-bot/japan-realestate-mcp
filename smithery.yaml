@@ -1,0 +1,25 @@
+version: 1
+name: japan-realestate-mcp
+displayName: "Japan Real Estate MCP"
+description: "Search Japan real estate transaction prices powered by official MLIT data. Ask: What are the recent apartment transaction prices in Shibuya? Show me land prices in Sapporo. What is the price range for condos in Minato-ku?"
+category: data
+tags:
+  - real-estate
+  - japan
+  - property
+  - land-price
+  - mlit
+  - transaction-data
+  - investment
+
+install:
+  type: remote
+  url: https://japan-realestate-mcp.tsukuras-jp.workers.dev/mcp
+
+author: Tsukuras
+homepage: https://tsukuras.jp
+repository: https://github.com/kakarsatoshi-bot/japan-realestate-mcp
+license: MIT
+
+documentation:
+  readme: README.md

@@ -1,0 +1,20 @@
+name = "japan-realestate-mcp"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[observability]
+enabled = true
+
+[durable_objects]
+bindings = [
+  { name = "MCP_OBJECT", class_name = "JapanRealEstateMcpAgent" }
+]
+
+[[migrations]]
+tag = "v1"
+new_sqlite_classes = ["JapanRealEstateMcpAgent"]
+
+[[kv_namespaces]]
+binding = "REALESTATE_CACHE"
+id = "25987420d5f1424fa74caf2b5bd57aba"
