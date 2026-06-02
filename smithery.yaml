@@ -1,7 +1,7 @@
 version: 1
 name: japan-realestate-mcp
 displayName: "Japan Real Estate MCP"
-description: "Search Japan real estate transaction prices powered by official MLIT data. Ask: What are the recent apartment transaction prices in Shibuya? Show me land prices in Sapporo. What is the price range for condos in Minato-ku?"
+description: "Query real estate transaction prices across Japan from the Ministry of Land (国土交通省MLIT). Search by area and property type, get price summaries with median and average."
 category: data
 tags:
   - real-estate
